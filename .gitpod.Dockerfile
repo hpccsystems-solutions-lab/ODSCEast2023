@@ -18,6 +18,6 @@ RUN ecl bundle install https://github.com/hpcc-systems/LinearRegression.git
 RUN ecl bundle install https://github.com/hpcc-systems/LogisticRegression.git
 RUN ecl bundle install https://github.com/hpcc-systems/LearningTrees.git
 RUN ecl bundle install https://github.com/hpcc-systems/DataPatterns.git
-RUN ecl bundle install https://github.com/hpcc-systems/Visualizer.git
+
 
 
