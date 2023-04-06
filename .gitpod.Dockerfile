@@ -5,7 +5,7 @@ RUN sudo apt-get -y update
 # Install the latest hpccsystems clienttools and required ML bundles.
 WORKDIR /tmp
 
-RUN wget https://cdn.hpccsystems.com/releases/CE-Candidate-8.4.12/bin/platform/hpccsystems-platform-community_9.0.0-1focal_amd64.deb
+RUN wget https://cdn.hpccsystems.com/releases/CE-Candidate-9.0.0/bin/platform/hpccsystems-platform-community_9.0.0-1focal_amd64.deb
 RUN sudo apt-get install -y --fix-missing ./hpccsystems-platform-community_9.0.0-1focal_amd64.deb
 RUN rm -f hpccsystems-platform-community_9.0.0-1focal_amd64.deb
 COPY ./environment/environment.xml /etc/HPCCSystems
