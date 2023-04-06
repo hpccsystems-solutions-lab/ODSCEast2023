@@ -1,12 +1,26 @@
 {
     "version": "0.2.0",
     "configurations": [
-        {
-            "name": "ODSCWest",
+	    {
+            "name": "localhost",
             "type": "ecl",
             "request": "launch",
             "protocol": "http",
-            "serverAddress": "99.79.151.88",
+            "serverAddress": "localhost",
+            "port": 8010,
+            "targetCluster": "thor",
+            "rejectUnauthorized": true,
+            "resultLimit": 100,
+            "timeoutSecs": 60,
+            "user": "TrainerBob",
+            "password": ""
+        },
+        {
+            "name": "ODSCEast",
+            "type": "ecl",
+            "request": "launch",
+            "protocol": "http",
+            "serverAddress": "training.us-hpccsystems-dev.azure.lnrsg.io",
             "port": 8010,
             "targetCluster": "thor",
             "rejectUnauthorized": true,
