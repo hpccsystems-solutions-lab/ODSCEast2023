@@ -1,5 +1,6 @@
 {
     "ecl.forceProxySupport": true,
-    "ecl.launchConfiguration": "TestCluster",
-    "ecl.targetCluster": {}
+    "ecl.launchConfiguration": "ODSCEast",
+    "ecl.targetCluster": {},
+    "ecl.eclccPath": "C:\\Program Files (x86)\\HPCCSystems\\9.0.4\\clienttools\\bin\\eclcc.exe"
 }
