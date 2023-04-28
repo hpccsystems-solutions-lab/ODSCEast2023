@@ -33,14 +33,14 @@
             "name": "PlayCluster",
             "type": "ecl",
             "request": "launch",
-            "protocol": "http",
+            "protocol": "https",
             "serverAddress": "play.hpccsystems.com",
-            "port": 8010,
+            "port": 18010,
             "targetCluster": "thor",
             "rejectUnauthorized": true,
             "resultLimit": 100,
             "timeoutSecs": 60,
-            "user": "gitpod_user",
+            "user": "gitpod_Bob",
             "password": ""
         }
     ]

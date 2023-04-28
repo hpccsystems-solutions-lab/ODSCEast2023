@@ -20,6 +20,6 @@ EXPORT Layout :=  RECORD
     UNSIGNED2 stories_number;
    END;
 	 
-EXPORT File :=	DATASET('~ODSCWest::taxdata',Layout,THOR);
+EXPORT File :=	DATASET('~ODSCEast::taxdata',Layout,THOR);
 
    END; 
