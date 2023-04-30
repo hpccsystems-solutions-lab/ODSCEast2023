@@ -24,7 +24,7 @@ PV_DNOut := OUTPUT(PVDenorm);
 
  $.Layouts.PropTax ParentMove($.File_Property.Layout Le) := TRANSFORM
   SELF.ChildTaxCount := 0;
-  SELF.TaxRecs    := [];
+  SELF.TaxRecs       := [];
   SELF := Le;
  END;
  PropTaxOnly := PROJECT($.File_Property.File, ParentMove(LEFT));
